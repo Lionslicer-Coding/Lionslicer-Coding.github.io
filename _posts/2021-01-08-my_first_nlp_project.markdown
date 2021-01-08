@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My First NLP Project"
-date:       2021-01-08 19:05:30 +0000
+date:       2021-01-08 14:05:31 -0500
 permalink:  my_first_nlp_project
 ---
 
