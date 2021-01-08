@@ -1,0 +1,20 @@
+# Site settings
+author: John Casey Dean
+title: Lionslicer Coding
+header-img: img/home-bg.png
+email: jdean2192@gmail.com
+copyright_name: John Casey Dean
+description: > # this means to ignore newlines until "baseurl:"
+  Data Science
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  Lionslicer-Coding
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
