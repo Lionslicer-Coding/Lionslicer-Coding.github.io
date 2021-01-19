@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Projecting Dota 2 Match Outcomes: Part Two"
-date:       2021-01-19 01:32:45 +0000
+date:       2021-01-18 20:32:45 -0500
 permalink:  projecting_dota_2_match_outcomes_part_two
 ---
 
@@ -39,6 +39,7 @@ The other features we are keeping are the teams, though we will need to reformat
 
 The function for this appears below:
 
+
 ```
 def add_hero_cols(df, column_name) :
     """Builds and appends a sparse data table at the end of a dataframe of Dota 2 Matches.
@@ -72,7 +73,8 @@ def add_hero_cols(df, column_name) :
     df.drop(['{}'.format(column_name)], axis=1, inplace=True)
     
     return df
-		```
+	
+```
 The last thing to note about our final data set is that it's slightly unbalanced class-wise. We have a data set that features roughly 60% Radiant wins, and 40% Dire wins. This isn't a terrible imbalance and don't believe it will show any significant impact on our models.
 
 ### Exploration
