@@ -11,7 +11,7 @@ permalink:  predicting_match_outcomes_in_dota_2_part_one
 This is part one of a series of posts detailing my project to build a model that predicts the outcomes of DotA 2 matches. You can view the GitHub repository for this project [here](https://github.com/Lionslicer-Coding/Dota2Project).
 
 * Part One: Obtaining Data (You are here)
-* Part Two: Scrubbing and Exploration
+* [Part Two: Scrubbing and Exploration](https://lionslicer-coding.github.io/projecting_dota_2_match_outcomes_part_two)
 * Part Three: Modeling and Interpretation
 
 For the better part of two decades, online multiplayer video games have been accruing massive player bases and forming competitive environments within them. These games span many different genres, and range in complexity from simple enough for children to master, to complex enough to require thousands of hours of playtime to develop high level skills.
